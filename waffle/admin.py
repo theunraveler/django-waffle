@@ -5,7 +5,7 @@ from django.contrib.admin.models import LogEntry, CHANGE, DELETION
 from django.contrib.admin.widgets import ManyToManyRawIdWidget
 from django.contrib.contenttypes.models import ContentType
 from django.utils.html import escape
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 from waffle.models import Flag, Sample, Switch
 
